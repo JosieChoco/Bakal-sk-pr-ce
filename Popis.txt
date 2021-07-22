@@ -1,0 +1,10 @@
+Program Shorův faktorizační algoritmus:
+
+Jazyk: Q#
+Zdrojový kód: Program.qs
+Spuštění v terminále VS Code: dotnet run -N Int, např dotnet run -N 40
+
+Poznámky:
+1) Vstupní parametr je číslo (int), pro které chceme najít faktorizaci
+2) Pro čísla > 50 výpočet obvykle časově trvá, záleží na výběru náhodného čísla a
+3) V hlavní operaci Start() (na konci zdrojového kódu) je předepsaný výpis pro testovací N = 1,.., 32. Ty stačí zakomentovat a program bude vypisovat pouze pro daný vstup N
